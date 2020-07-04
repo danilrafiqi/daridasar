@@ -4,21 +4,24 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" style={{height:'100vh', display:'flex', justifyContent:'center', 
+    backgroundColor: '#28cccc',
+    alignContent: 'center',
+    alignItems: 'center'
+    }}>
+      <div>
+
+      <p style={{
+        fontWeight: 'bold',
+        color: 'white', 
+        fontSize:'22px',
+      }}>Coming soon</p>
+      <p style={{
+        fontSize: '28px',
+        fontWeight: 'bold',
+        color: 'white',   
+      }}>Belajar Pemrograman daridasar.com</p>
+      </div>
     </div>
   );
 }
